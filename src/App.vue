@@ -1,5 +1,5 @@
 <template>
-<h1>Trevor's timer</h1>
+<h1>Reaction timer</h1>
 <button @click="start" :disabled="isPlaying">Play</button>
 <Block v-if="isPlaying" :delay="delay" @end="endGame"/>
 <p v-if="showResults">Reaction time: {{ score }} ms</p>
